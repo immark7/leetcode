@@ -1,7 +1,7 @@
 package easy;
 
 //Problem: https://leetcode.com/problems/remove-element/submissions/
-class Solution {
+class RemoveElement {
     public static void main(String[] args) {
         int[] nums = {3, 2, 2, 3};
         int val = 3;
