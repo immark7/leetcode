@@ -1,4 +1,4 @@
-package easy;
+package easy.remove_element;
 
 //Problem: https://leetcode.com/problems/remove-element/submissions/
 class RemoveElement {

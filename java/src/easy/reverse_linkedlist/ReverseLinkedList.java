@@ -1,4 +1,4 @@
-package easy;
+package easy.reverse_linkedlist;
 
 class ListNode {
     int val;

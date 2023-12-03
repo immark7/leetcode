@@ -1,4 +1,4 @@
-package easy;
+package easy.baseball_game;
 
 import java.util.ArrayList;
 

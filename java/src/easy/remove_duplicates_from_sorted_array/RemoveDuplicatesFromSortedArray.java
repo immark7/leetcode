@@ -1,4 +1,4 @@
-package easy;
+package easy.remove_duplicates_from_sorted_array;
 
 //Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 public class RemoveDuplicatesFromSortedArray {

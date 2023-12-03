@@ -1,4 +1,4 @@
-package medium;
+package medium.browser_history;
 
 class ListNode {
     String url;

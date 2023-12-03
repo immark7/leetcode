@@ -1,4 +1,4 @@
-package easy;
+package easy.concatenation_array;
 
 import java.util.Arrays;
 
