@@ -1,0 +1,15 @@
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\bin\Debug\net8.0\ContainsDuplicate.exe
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\bin\Debug\net8.0\ContainsDuplicate.deps.json
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\bin\Debug\net8.0\ContainsDuplicate.runtimeconfig.json
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\bin\Debug\net8.0\ContainsDuplicate.dll
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\bin\Debug\net8.0\ContainsDuplicate.pdb
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.AssemblyInfoInputs.cache
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.AssemblyInfo.cs
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.csproj.CoreCompileInputs.cache
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.sourcelink.json
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.dll
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\refint\ContainsDuplicate.dll
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.pdb
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ContainsDuplicate.genruntimeconfig.cache
+D:\MyGit\leetcode\C#\Easy\ContainsDuplicate\obj\Debug\net8.0\ref\ContainsDuplicate.dll
