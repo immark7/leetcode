@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mine\\leetcode\\C#\\Easy\\ContainsDuplicate\\ContainsDuplicate.csproj": {}
+    "D:\\mine\\leetcode\\C#\\Easy\\RemoveElement\\RemoveElement.csproj": {}
   },
   "projects": {
-    "D:\\mine\\leetcode\\C#\\Easy\\ContainsDuplicate\\ContainsDuplicate.csproj": {
+    "D:\\mine\\leetcode\\C#\\Easy\\RemoveElement\\RemoveElement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mine\\leetcode\\C#\\Easy\\ContainsDuplicate\\ContainsDuplicate.csproj",
-        "projectName": "ContainsDuplicate",
-        "projectPath": "D:\\mine\\leetcode\\C#\\Easy\\ContainsDuplicate\\ContainsDuplicate.csproj",
+        "projectUniqueName": "D:\\mine\\leetcode\\C#\\Easy\\RemoveElement\\RemoveElement.csproj",
+        "projectName": "RemoveElement",
+        "projectPath": "D:\\mine\\leetcode\\C#\\Easy\\RemoveElement\\RemoveElement.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "D:\\mine\\leetcode\\C#\\Easy\\ContainsDuplicate\\obj\\",
+        "outputPath": "D:\\mine\\leetcode\\C#\\Easy\\RemoveElement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mark\\AppData\\Roaming\\NuGet\\NuGet.Config",

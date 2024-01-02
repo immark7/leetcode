@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8JhAbtrtMbXZJ/5x5fQotqXqrTmdrYaN71lQAnkyj4p+wDjtTR4Cxj2VRQbX7GO03aVMYzJNEtpNuJDWHKbTAQ==",
+  "dgSpecHash": "l/AAfd3L2eYrOCGVoNJ7RR29pQpaUcezGQpySfsWObJopvDcuqVTijRnUFOeg+7bmXCQMWhHP9oOrgJgj0qF5w==",
   "success": true,
-  "projectFilePath": "D:\\MyGit\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj",
+  "projectFilePath": "D:\\mine\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

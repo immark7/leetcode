@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyGit\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj": {}
+    "D:\\mine\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj": {}
   },
   "projects": {
-    "D:\\MyGit\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj": {
+    "D:\\mine\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyGit\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj",
+        "projectUniqueName": "D:\\mine\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj",
         "projectName": "TwoSum",
-        "projectPath": "D:\\MyGit\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj",
+        "projectPath": "D:\\mine\\leetcode\\C#\\Easy\\TwoSum\\TwoSum.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "D:\\MyGit\\leetcode\\C#\\Easy\\TwoSum\\obj\\",
+        "outputPath": "D:\\mine\\leetcode\\C#\\Easy\\TwoSum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mark\\AppData\\Roaming\\NuGet\\NuGet.Config",

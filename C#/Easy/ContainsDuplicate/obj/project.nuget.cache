@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KvqFdjiK6/f7Yk+jgssC5UvOpvFe0o2dQEwsJnlt9L2fFsr4PXeVHMLnrfgKc6Zi65Gt9SPUW6rRnl4VBnt+Jw==",
+  "dgSpecHash": "nPOqdUH0GYexsE2ucVCOTCvi2bnXxeGKieDs7Z1XPkLaBQSdPefiuIX/wZeSIi9n3xLO/2n9eP/QcXlIcgeC0g==",
   "success": true,
-  "projectFilePath": "D:\\MyGit\\leetcode\\C#\\Easy\\ContainsDuplicate\\ContainsDuplicate.csproj",
+  "projectFilePath": "D:\\mine\\leetcode\\C#\\Easy\\ContainsDuplicate\\ContainsDuplicate.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
