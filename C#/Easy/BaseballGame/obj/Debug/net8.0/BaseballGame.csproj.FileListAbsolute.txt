@@ -1,0 +1,15 @@
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.AssemblyInfoInputs.cache
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.AssemblyInfo.cs
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.csproj.CoreCompileInputs.cache
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.sourcelink.json
+D:\mine\leetcode\C#\Easy\BaseballGame\bin\Debug\net8.0\BaseballGame.exe
+D:\mine\leetcode\C#\Easy\BaseballGame\bin\Debug\net8.0\BaseballGame.deps.json
+D:\mine\leetcode\C#\Easy\BaseballGame\bin\Debug\net8.0\BaseballGame.runtimeconfig.json
+D:\mine\leetcode\C#\Easy\BaseballGame\bin\Debug\net8.0\BaseballGame.dll
+D:\mine\leetcode\C#\Easy\BaseballGame\bin\Debug\net8.0\BaseballGame.pdb
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.dll
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\refint\BaseballGame.dll
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.pdb
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\BaseballGame.genruntimeconfig.cache
+D:\mine\leetcode\C#\Easy\BaseballGame\obj\Debug\net8.0\ref\BaseballGame.dll
