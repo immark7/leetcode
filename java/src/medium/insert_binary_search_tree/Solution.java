@@ -1,6 +1,4 @@
 package medium.insert_binary_search_tree;
-
-
 import easy.search_in_bst.TreeNode;
 
 /**
