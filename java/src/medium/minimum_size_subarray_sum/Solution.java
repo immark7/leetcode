@@ -7,7 +7,7 @@ public class Solution {
 
         for (int r = 0; r < nums.length; r++) {
             total += nums[r];
-            while (total >= target) {
+            while (total >= target) { 
                 res = Math.min(r - l + 1, res);
                 total -= nums[l++];
             }
