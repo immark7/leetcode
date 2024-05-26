@@ -1,6 +1,8 @@
 package easy.is_palindrome;
 
 // Given a string of characters, return true if it's a palindrome,
+
+// Two pointers
 public class Solution {
     public static boolean isPalindrome(String word) {
         int L = 0, R = word.length() - 1;
