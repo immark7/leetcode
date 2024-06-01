@@ -8,6 +8,7 @@ class ListNode {
     }
 }
 
+// Fast and slow pointers
 class Solution {
     public ListNode middleNode(ListNode head){
         ListNode slow = head;
