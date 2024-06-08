@@ -1,8 +1,8 @@
 package medium.implement_trie;
 
-class TrieNode {
-    TrieNode[] children;
-    boolean isEndOfWord;
+public class TrieNode {
+    public TrieNode[] children;
+    public boolean isEndOfWord;
 
     public TrieNode() {
         children = new TrieNode[26];
