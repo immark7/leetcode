@@ -2,19 +2,21 @@ package easy.binary_search;
 
 public class Solution {
     public int search(int[] nums, int target) {
-        int L = 0, R = nums.length - 1;
-        int mid;
+        int left = 0;
+        int right = nums.length - 1;
 
-        while (L <= R) {
-            mid = (L + R) / 2;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+
             if (target > nums[mid]) {
-                L = mid + 1;
+                left = mid + 1;
             } else if (target < nums[mid]) {
-                R = mid - 1;
+                right = mid - 1;
             } else {
                 return mid;
             }
         }
+
         return -1;
     }
 }
