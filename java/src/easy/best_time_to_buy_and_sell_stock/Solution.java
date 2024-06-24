@@ -1,5 +1,6 @@
 package easy.best_time_to_buy_and_sell_stock;
 
+// Sliding Window
 public class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
