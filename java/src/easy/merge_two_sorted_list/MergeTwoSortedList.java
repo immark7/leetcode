@@ -3,7 +3,6 @@ package easy.merge_two_sorted_list;
 class ListNode {
     int val;
     ListNode next;
-
     ListNode(int val) {
         this.val = val;
     }
@@ -24,6 +23,14 @@ public class MergeTwoSortedList {
                 list2 = list2.next;
             }
             current = current.next;
+        }
+
+        if (list1 != null) {
+            current.next = list1;
+        }
+
+        if (list2 != null) {
+            current.next = list2;
         }
 
         return dummy.next;
