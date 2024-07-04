@@ -12,6 +12,7 @@ public class Solution {
             count[index]++;
             maxCount = Math.max(maxCount, count[index]);
 
+            // Check if current window is valid
             while (end - start + 1 - maxCount > k) {
                 count[s.charAt(start) - 'A']--;
                 start++;
