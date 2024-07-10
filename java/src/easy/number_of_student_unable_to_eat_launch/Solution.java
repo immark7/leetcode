@@ -7,29 +7,35 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] students = {1,1,0,0};
-        int[] sandwiches = {0,1,0,1};
+        int[] students = {1, 1, 0, 0};
+        int[] sandwiches = {0, 1, 0, 1};
         int result = sol.countStudents(students, sandwiches);
         System.out.println("Number of students who cannot eat: " + result);
     }
 
-    public int countStudents(int[] students, int[] sandwiches) {
+    public static int countStudents(int[] students, int[] sandwiches) {
         Queue<Integer> studentQueue = new LinkedList<>();
+        Queue<Integer> sandwichQueue = new LinkedList<>();
+
         for (int student : students) {
             studentQueue.add(student);
         }
 
-        int sandwichIndex = 0;
-        int countFailures = 0;
+        for (int sandwich : sandwiches) {
+            sandwichQueue.add(sandwich);
+        }
 
-        while (!studentQueue.isEmpty() && countFailures < studentQueue.size()) {
-            int currentStudent = studentQueue.poll();
-            if (currentStudent == sandwiches[sandwichIndex]) {
-                sandwichIndex++;
-                countFailures = 0;
+        int attempts = 0;
+
+        while (!studentQueue.isEmpty() && attempts < studentQueue.size()) {
+            if (studentQueue.peek()
+                    .equals(sandwichQueue.peek())) {
+                studentQueue.poll();
+                sandwichQueue.poll();
+                attempts = 0;
             } else {
-                studentQueue.add(currentStudent);
-                countFailures++;
+                studentQueue.add(studentQueue.poll());
+                attempts++;
             }
         }
 
