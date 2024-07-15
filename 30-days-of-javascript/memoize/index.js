@@ -29,3 +29,7 @@ function memoize(fn) {
  * memoizedFn(2, 3) // 5
  * console.log(callCount) // 1
  */
+
+const minValue = () => {
+  let min = 1000;
+};
