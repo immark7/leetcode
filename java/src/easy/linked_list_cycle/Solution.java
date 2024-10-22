@@ -1,13 +1,6 @@
 package easy.linked_list_cycle;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
+import common.ListNode;
 
 // Fast and slow pointers
 class Solution {
@@ -15,11 +8,11 @@ class Solution {
         ListNode fast = head;
         ListNode slow = head;
 
-        while(fast != null && fast.next != null) {
+        while (fast != null && fast.next != null) {
             slow = slow.next;
-            fast = fast.next;
+            fast = fast.next.next;
 
-            if(slow == fast) {
+            if (slow == fast) {
                 return true;
             }
         }
