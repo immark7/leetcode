@@ -1,20 +1,13 @@
 package easy.middle_of_linked_list;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+import common.ListNode;
 
-// Fast and slow pointers
-class Solution {
-    public ListNode middleNode(ListNode head){
+public class Solution {
+    public ListNode middleNode(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 
-        while(fast != null && fast.next != null) {
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
