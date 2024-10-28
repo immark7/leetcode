@@ -1,13 +1,6 @@
 package medium.maximum_twin_sum_of_linked_list;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+import common.ListNode;
 
 // Fast and slow pointers
 class Solution {
