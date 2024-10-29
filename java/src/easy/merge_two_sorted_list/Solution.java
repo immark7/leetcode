@@ -1,17 +1,10 @@
 package easy.merge_two_sorted_list;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+import common.ListNode;
 
-public class MergeTwoSortedList {
-
+public class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode dummy = new ListNode(-1);
+        ListNode dummy = new ListNode(0);
         ListNode current = dummy;
 
         while (list1 != null && list2 != null) {

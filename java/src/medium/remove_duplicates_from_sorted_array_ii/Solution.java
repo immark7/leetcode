@@ -1,28 +1,26 @@
 package medium.remove_duplicates_from_sorted_array_ii;
 
-// Two pointer
 public class Solution {
     public int removeDuplicates(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
-        }
+        int fast = 1;
+        int slow = 0;
+        int dup = 1;
 
-        int k = 1;
-        int count = 1;
-
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i - 1]) {
-                count++;
+        while (fast < nums.length) {
+            if (nums[fast] == nums[fast - 1]) {
+                dup++;
             } else {
-                count = 1;
+                dup = 1;
             }
 
-            if (count <= 2) {
-                nums[k] = nums[i];
-                k++;
+            if (dup <= 2) {
+                slow++;
+                nums[slow] = nums[fast];
             }
+
+            fast++;
         }
 
-        return k;
+        return slow + 1;
     }
 }
