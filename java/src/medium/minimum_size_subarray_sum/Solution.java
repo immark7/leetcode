@@ -2,17 +2,23 @@ package medium.minimum_size_subarray_sum;
 
 public class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int l = 0, total = 0;
-        int res = Integer.MAX_VALUE;
+        int fast = 0;
+        int slow = 0;
+        int sum = 0;
+        int minLen = Integer.MAX_VALUE;
 
-        for (int r = 0; r < nums.length; r++) {
-            total += nums[r];
-            while (total >= target) { 
-                res = Math.min(r - l + 1, res);
-                total -= nums[l++];
+        while (fast < nums.length) {
+            sum += nums[fast];
+
+            while (sum >= target) {
+                minLen = Math.min(minLen, fast - slow + 1);
+                sum -= nums[slow];
+                slow++;
             }
+
+            fast++;
         }
 
-        return res == Integer.MAX_VALUE ? 0 : res;
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
 }
