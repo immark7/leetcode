@@ -5,7 +5,7 @@ import easy.search_in_bst.TreeNode;
 class Solution {
     private int diameter = 0;
 
-    public int diameterOfBinaryTree(TreeNode root) {
+public int diameterOfBinaryTree(TreeNode root) {
         dfs(root);
         return diameter;
     }
